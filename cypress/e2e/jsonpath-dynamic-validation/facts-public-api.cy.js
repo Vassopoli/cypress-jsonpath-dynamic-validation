@@ -1,5 +1,6 @@
 const validationList = [
     { customJPQuery: '$..source', customAssertion: 'have.length', customValue: 5 },
+    { customJPQuery: '$..[?(@.used == true)]._id', customAssertion: 'have.any', customValue: '5887e1d85c873e0011036889' },
     { customJPQuery: '$..source', customAssertion: 'deep.eq', customValue: JSON.parse('["user", "user", "user", "user", "user"]') },
 ]
 
